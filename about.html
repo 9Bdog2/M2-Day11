@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Crash Course tutorial</title>
+    
+</head>
+
+
+<body>
+    <h1>HTML Forms</h1>
+    
+    <a href="index.html">Index Page</a>
+    <a href="new.html">New Page</a>
+    <br><br>
+
+    <form>
+        <label for="username">Enter username</label>
+        <input type="text" id="username" name="username" required placeholder="username">
+        <br><br>
+        <label for="email">Enter Email</label>
+        <input type="email" id="email" name="email"placeholder="email">
+        <br><br>
+        <label for="password">Enter password</label>
+        <input type="password" id="password" name="password" required placeholder="password">
+        <br><br>
+        <p>Select your age:</p>
+        <br>
+        <input type="radio" name="age" value="0-25" id="option1">
+        <label for="option1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option2">
+        <label for="option2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option3">
+        <label for="option3">51+</label>
+        <br><br>
+        <label for="">Security question</label>
+        <select name="question" id="question">
+            <option value="q1">What color are your socks?</option>
+            <option value="q2">What is the time?</option>
+            <option value="q3">What kind of shoes do you own?</option>
+            <option value="q4">What kind of soup?</option>
+        </select>
+        <br><br>
+        <label for="">Security question answer:</label>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+        <label for="bio">Your bio:</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+        <br><br>
+        <input type="submit" value="submit the form">
+ 
+    </form>
+
+    
+    
+</body>
+</html>
